@@ -45,4 +45,4 @@ Ainda estou no início da minha jornada, mas pretendo:
 ---
 
 ## 📌 Como Visualizar
-Basta clonar o repositório e abrir o arquivo `index.html` no navegador:  
+Basta abrir ![Demonstração do site](demonstracaojgnumerosecreto.gif.gif) no navegador:  
