@@ -37,7 +37,7 @@ Além do que foi ensinado no curso, fui além e criei uma seção chamada **"Jor
 ---
 
 ## 📸 Demonstração
-![Demonstração do site](demonstracaojgnumerosecreto.gif.gif)
+![Demonstração do site](meuportifolio.gif)
 
 ---
 
