@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Kode+Mono:wght@400..700&family=Libertinus+Keyboard&display=swap');
+
+
+:root { /* variaveis para alterar a cor de tudo se necessario */
+    --cor-fundo: #FE7BE5;
+    --cor-primaria: #504099;
+    --cor-secundaria:#974EC3;
+    --cor-tercearia: #FA01B5;
+    --cor-hover: #8bd3bb; /* cor para a "sombra" do botao */
+
+    --fonte-primaria: "Libertinus Keyboard", system-ui;
+    --fonte-secundaria: "Kode Mono", monospacee;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color:var(--cor-primaria)
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--cor-secundaria);
+    
+}
+
+.apresentacao {
+    padding: 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.titulo__destaque {
+    color: var(--cor-tercearia);
+
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 0.93rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo__texto2 {
+    font-size: 0.93rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+
+.apresentacao__links {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:32px;
+    align-items: center
+    
+}
+
+.apresentacao__links__redesocial {
+    /* background-color:aqua; para comentar no CSS */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 3px outset var(--cor-tercearia);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-tercearia);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.apresentacao__links__redesocial:hover {
+    background-color:var(--cor-hover);
+}
+
+.apresentacao__imagem {
+   width: 50%; 
+   border-radius: 8px;
+}
+
+
+
+
+
+/* Regras para o Carrossel */
+.container {
+    width: 600px;
+    overflow: hidden;   
+  
+}
+
+.carrossel {
+    width: 4600px;
+    display: flex;
+    animation: slide 35s linear infinite;
+    
+}
+
+.carrossel img{
+     width: 400px;
+     height: auto;
+     object-fit:scale-down;
+    flex-shrink: 0; 
+  
+}
+
+
+@keyframes slide {
+  0% { transform: translateX(0); -460px;}
+  100% { transform: translateX(-100%); }
+
+}  
+
+
+
+.rodape {
+    padding: 24px;
+    color:antiquewhite;
+    background-color: var(--cor-tercearia);
+    text-align: center;
+    font-family: var(--fonte-secundaria)
+    font-size: 0.93rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1237px) {
+    .cabecalho {
+        padding: 8%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
