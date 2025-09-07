@@ -36,6 +36,11 @@ Além do que foi ensinado no curso, fui além e criei uma seção chamada **"Jor
 
 ---
 
+## 📸 Demonstração
+![Demonstração do site](demonstracaojgnumerosecreto.gif.gif)
+
+---
+
 ## 🔮 Próximos Passos
 Ainda estou no início da minha jornada, mas pretendo:  
 - Melhorar este projeto com os novos conhecimentos que for adquirindo.  
@@ -45,4 +50,4 @@ Ainda estou no início da minha jornada, mas pretendo:
 ---
 
 ## 📌 Como Visualizar
-Basta abrir ![Demonstração do site](demonstracaojgnumerosecreto.gif.gif) no navegador:  
+Basta abrir https://projeto-oracle-one-numero-secreto-6.vercel.app/index.html no navegador:  
